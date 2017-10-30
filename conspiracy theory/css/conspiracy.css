@@ -1,0 +1,79 @@
+body{
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  color: #e68a00;
+  padding: 10px;
+}
+
+.magical_box{
+  border: 2px solid #000000;
+  padding: inherit;
+  background-color:#e68a00;
+}
+
+h2{
+  text-align: center;
+  color:#e68a00;
+  background-color:#000000;
+}
+
+.p2{
+  color: #000000;
+}
+
+h1{
+  text-align: center;
+  color:#e68a00;
+  background-color:#000000;
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image{
+  display: block;
+  width: 465px;
+  height: auto;
+}
+
+.image2{
+  border-radius: 8px;
+}
+
+
+.shadow {-webkit-filter: drop-shadow(8px 8px 10px red);filter: drop-shadow(8px 8px 10px red);
+margin-right: 20px;}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 350px;
+  width: 465px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.image2{
+    border-radius: 50%;
+}
